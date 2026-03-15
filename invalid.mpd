@@ -5,7 +5,7 @@
 <Signal xmlns="http://www.scte.org/schemas/35/2016">
 <Binary> /DAsAAAAAAAAAP/wBQb/WS0OsAAWAhRDVUVJAAAAUn//AACky4AAACIAAIL8Mt8= </Binary>
 </Signal>
-</Event
+</Event>
 <Event duration="0" presentationTime="58717243170" id="83">
 <Signal xmlns="http://www.scte.org/schemas/35/2016">
 <Binary> /DAnAAAAAAAAAP/wBQb/WdHUVAARAg9DVUVJAAAAU3+/AAAjAAAAW+YM </Binary>
@@ -51,9 +51,10 @@
 <S t="58717800000" d="180000"/>
 <S t="58717980000" d="180000"/>
 </SegmentTimeline>
-</SegmentTemplate
+</SegmentTemplate>
 </Representation>
-<Representation width="1280" height="720" sar="1:1" codecs="avc1.4d401f" id="1" bandwidth="2700000">
+
+<Representation width="1280" height="720" sar="1:1" codecs="avc1.4d401f" id="0" bandwidth="2700000">
 <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns2:default_KID="57711401-fa1c-4f63-912c-1a5a8437757a"/>
 <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
 <ns2:pssh>AAAAV3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADcIARIQV3EUAfocT2ORLBpahDd1eiIhdmlkYWEtZTA4Mi00MTNiLTgyY2YtODRhNmQ3ZWIxOGI0</ns2:pssh>
@@ -133,86 +134,6 @@
 </SegmentTimeline>
 </SegmentTemplate>
 </Representation>
-<Representation width="640" height="360" sar="1:1" codecs="avc1.4d401f" id="3" bandwidth="600000">
-<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns2:default_KID="57711401-fa1c-4f63-912c-1a5a8437757a"/>
-<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-<ns2:pssh>AAAAV3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADcIARIQV3EUAfocT2ORLBpahDd1eiIhdmlkYWEtZTA4Mi00MTNiLTgyY2YtODRhNmQ3ZWIxOGI0</ns2:pssh>
-</ContentProtection>
-<SegmentTemplate timescale="90000" media="V_video_360640_p_0/$Time$.m4s" initialization="V_video_360640_p_0/init.m4s">
-<SegmentTimeline>
-<S t="58712940000" d="180000"/>
-<S t="58713120000" d="180000"/>
-<S t="58713300000" d="180000"/>
-<S t="58713480000" d="180000"/>
-<S t="58713660000" d="180000"/>
-<S t="58713840000" d="180000"/>
-<S t="58714020000" d="180000"/>
-<S t="58714200000" d="180000"/>
-<S t="58714380000" d="180000"/>
-<S t="58714560000" d="180000"/>
-<S t="58714740000" d="180000"/>
-<S t="58714920000" d="180000"/>
-<S t="58715100000" d="180000"/>
-<S t="58715280000" d="180000"/>
-<S t="58715460000" d="180000"/>
-<S t="58715640000" d="180000"/>
-<S t="58715820000" d="180000"/>
-<S t="58716000000" d="180000"/>
-<S t="58716180000" d="180000"/>
-<S t="58716360000" d="180000"/>
-<S t="58716540000" d="180000"/>
-<S t="58716720000" d="180000"/>
-<S t="58716900000" d="180000"/>
-<S t="58717080000" d="165600"/>
-<S t="58717245600" d="104400"/>
-<S t="58717350000" d="90000"/>
-<S t="58717440000" d="180000"/>
-<S t="58717620000" d="180000"/>
-<S t="58717800000" d="180000"/>
-<S t="58717980000" d="180000"/>
-</SegmentTimeline>
-</SegmentTemplate>
-</Representation>
-<Representation width="384" height="216" sar="1:1" codecs="avc1.4d401f" id="4" bandwidth="300000">
-<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns2:default_KID="57711401-fa1c-4f63-912c-1a5a8437757a"/>
-<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
-<ns2:pssh>AAAAV3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADcIARIQV3EUAfocT2ORLBpahDd1eiIhdmlkYWEtZTA4Mi00MTNiLTgyY2YtODRhNmQ3ZWIxOGI0</ns2:pssh>
-</ContentProtection>
-<SegmentTemplate timescale="90000" media="V_video_216384_p_0/$Time$.m4s" initialization="V_video_216384_p_0/init.m4s">
-<SegmentTimeline>
-<S t="58712940000" d="180000"/>
-<S t="58713120000" d="180000"/>
-<S t="58713300000" d="180000"/>
-<S t="58713480000" d="180000"/>
-<S t="58713660000" d="180000"/>
-<S t="58713840000" d="180000"/>
-<S t="58714020000" d="180000"/>
-<S t="58714200000" d="180000"/>
-<S t="58714380000" d="180000"/>
-<S t="58714560000" d="180000"/>
-<S t="58714740000" d="180000"/>
-<S t="58714920000" d="180000"/>
-<S t="58715100000" d="180000"/>
-<S t="58715280000" d="180000"/>
-<S t="58715460000" d="180000"/>
-<S t="58715640000" d="180000"/>
-<S t="58715820000" d="180000"/>
-<S t="58716000000" d="180000"/>
-<S t="58716180000" d="180000"/>
-<S t="58716360000" d="180000"/>
-<S t="58716540000" d="180000"/>
-<S t="58716720000" d="180000"/>
-<S t="58716900000" d="180000"/>
-<S t="58717080000" d="165600"/>
-<S t="58717245600" d="104400"/>
-<S t="58717350000" d="90000"/>
-<S t="58717440000" d="180000"/>
-<S t="58717620000" d="180000"/>
-<S t="58717800000" d="180000"/>
-<S t="58717980000" d="180000"/>
-</SegmentTimeline>
-</SegmentTemplate>
-</Representation>
 </AdaptationSet>
 <AdaptationSet mimeType="audio/mp4" id="1" lang="en" maxHeight="0" segmentAlignment="true">
 <Representation audioSamplingRate="48000" codecs="mp4a.40.2" id="5" bandwidth="128000">
@@ -258,4 +179,4 @@
 </Representation>
 </AdaptationSet>
 </Period>
-</MPD
+</MPD>
