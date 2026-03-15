@@ -1,4 +1,3 @@
-This XML file does not appear to have any style information associated with it. The document tree is shown below.
 <MPD xmlns:ns2="urn:mpeg:cenc:2013" xmlns:dashif="https://dashif.org/CPS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2026-03-07T18:34:48Z" publishTime="2026-03-15T07:48:32Z" minimumUpdatePeriod="PT2S" minBufferTime="PT4S" timeShiftBufferDepth="PT1M" suggestedPresentationDelay="PT36S" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
 <Period id="0" start="PT0S">
 <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="90000">
