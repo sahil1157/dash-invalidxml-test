@@ -1,18 +1,28 @@
-<MPD xmlns:ns2="urn:mpeg:cenc:2013" xmlns:dashif="https://dashif.org/CPS" xlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2026-03-07T18:34:48Z" publishTime="2026-03-15T07:48:32Z" minimumUpdatePeriod="PT2S" minBufferTime="PT4S" timeShiftBufferDepth="PT1M" suggestedPresentationDelay="PT36S" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
+break this xml and give me, so i could get invalid mpd alarm..
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<MPD xmlns:ns2="urn:mpeg:cenc:2013" xmlns:dashif="https://dashif.org/CPS" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" profiles="urn:mpeg:dash:profile:isoff-live:2011" type="dynamic" availabilityStartTime="2026-03-07T18:34:48Z" publishTime="2026-03-15T07:48:32Z" minimumUpdatePeriod="PT2S" minBufferTime="PT4S" timeShiftBufferDepth="PT1M" suggestedPresentationDelay="PT36S" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 DASH-MPD.xsd">
 <Period id="0" start="PT0S">
 <EventStream schemeIdUri="urn:scte:scte35:2014:xml+bin" timescale="90000">
 <Event duration="10800000" presentationTime="58706443800" id="82">
 <Signal xmlns="http://www.scte.org/schemas/35/2016">
 <Binary> /DAsAAAAAAAAAP/wBQb/WS0OsAAWAhRDVUVJAAAAUn//AACky4AAACIAAIL8Mt8= </Binary>
 </Signal>
-</Event>
+</Event
 <Event duration="0" presentationTime="58717243170" id="83">
 <Signal xmlns="http://www.scte.org/schemas/35/2016">
 <Binary> /DAnAAAAAAAAAP/wBQb/WdHUVAARAg9DVUVJAAAAU3+/AAAjAAAAW+YM </Binary>
 </Signal>
 </Event>
+</EventStream>
+<AdaptationSet frameRate="25/1" mimeType="video/mp4" id="0" par="16:9" maxWidth="1920" maxHeight="1080" segmentAlignment="true">
+<Representation width="1920" height="1080" sar="1:1" codecs="avc1.4d401f" id="0" bandwidth="5200000">
+<ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns2:default_KID="57711401-fa1c-4f63-912c-1a5a8437757a"/>
+<ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
+<ns2:pssh>AAAAV3Bzc2gAAAAA7e+LqXnWSs6jyCfc1R0h7QAAADcIARIQV3EUAfocT2ORLBpahDd1eiIhdmlkYWEtZTA4Mi00MTNiLTgyY2YtODRhNmQ3ZWIxOGI0</ns2:pssh>
+</ContentProtection>
+<SegmentTemplate timescale="90000" media="V_video_10801920_p_0/$Time$.m4s" initialization="V_video_10801920_p_0/init.m4s">
 <SegmentTimeline>
-<S t="58712940000" d="180000"
+<S t="58712940000" d="180000"/>
 <S t="58713120000" d="180000"/>
 <S t="58713300000" d="180000"/>
 <S t="58713480000" d="180000"/>
@@ -43,8 +53,8 @@
 <S t="58717800000" d="180000"/>
 <S t="58717980000" d="180000"/>
 </SegmentTimeline>
-</SegmentTemplate>
-</Representation
+</SegmentTemplate
+</Representation>
 <Representation width="1280" height="720" sar="1:1" codecs="avc1.4d401f" id="1" bandwidth="2700000">
 <ContentProtection schemeIdUri="urn:mpeg:dash:mp4protection:2011" value="cenc" ns2:default_KID="57711401-fa1c-4f63-912c-1a5a8437757a"/>
 <ContentProtection schemeIdUri="urn:uuid:edef8ba9-79d6-4ace-a3c8-27dcd51d21ed">
@@ -250,4 +260,4 @@
 </Representation>
 </AdaptationSet>
 </Period>
-</MPD>
+</MPD
